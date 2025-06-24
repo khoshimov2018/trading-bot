@@ -282,7 +282,6 @@ Trading Bot/
 | **Sharpe Ratio** | 0.971 ✅ | -0.335 ❌ |
 | **Profitable Rate** | 100% ✅ | 47.7% ❌ |
 | **Hit Rate** | ~60% ✅ | 53.4% ❌ |
-| **Conclusion** | Promising | **Strategy fails** |
 
 ### Performance by Year
 | Year | Mean Sharpe | Status |
