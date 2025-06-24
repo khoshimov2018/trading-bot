@@ -1,0 +1,1113 @@
+nohup: ignoring input
+Starting comprehensive robustness testing...
+Loading data...
+Data loaded: 2502 samples from 2015-07-10 00:00:00+00:00 to 2025-06-20 00:00:00+00:00
+Setting up walk-forward validation...
+Generated 14 validation windows
+Total experiments to run: 504
+
+Hyperparameters: latent_dim=4, window=10, dropout=0.0, l2_reg=0.0
+  Experiment 1/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 2/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 3/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 4/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 5/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 6/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 7/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 8/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 9/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 10/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 11/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 12/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 13/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 14/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.939 ± 3.491
+      Sharpe (w/ TC):  0.639 ± 3.408
+      Hit Rate:       0.554 ± 0.077
+    prob_weighted:
+      Sharpe (no TC): -0.182 ± 3.857
+      Sharpe (w/ TC):  -1.964 ± 4.275
+      Hit Rate:       0.554 ± 0.077
+    vol_adjusted:
+      Sharpe (no TC): -0.138 ± 3.805
+      Sharpe (w/ TC):  -2.462 ± 4.709
+      Hit Rate:       0.554 ± 0.077
+
+Hyperparameters: latent_dim=4, window=10, dropout=0.0, l2_reg=0.0001
+  Experiment 15/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 16/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 17/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 18/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 19/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 20/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 21/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 22/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 23/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 24/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 25/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 26/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 27/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 28/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.535 ± 3.276
+      Sharpe (w/ TC):  0.236 ± 3.168
+      Hit Rate:       0.542 ± 0.081
+    prob_weighted:
+      Sharpe (no TC): -0.248 ± 3.847
+      Sharpe (w/ TC):  -4.763 ± 10.420
+      Hit Rate:       0.542 ± 0.081
+    vol_adjusted:
+      Sharpe (no TC): -0.164 ± 3.734
+      Sharpe (w/ TC):  -5.246 ± 10.775
+      Hit Rate:       0.542 ± 0.081
+
+Hyperparameters: latent_dim=4, window=10, dropout=0.2, l2_reg=0.0
+  Experiment 29/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 30/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 31/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 32/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 33/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 34/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 35/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 36/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 37/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 38/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 39/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 40/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 41/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 42/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 1.255 ± 3.313
+      Sharpe (w/ TC):  0.898 ± 3.196
+      Hit Rate:       0.550 ± 0.078
+    prob_weighted:
+      Sharpe (no TC): 0.692 ± 3.964
+      Sharpe (w/ TC):  -1.404 ± 3.355
+      Hit Rate:       0.550 ± 0.078
+    vol_adjusted:
+      Sharpe (no TC): 0.623 ± 3.847
+      Sharpe (w/ TC):  -1.839 ± 3.571
+      Hit Rate:       0.550 ± 0.078
+
+Hyperparameters: latent_dim=4, window=10, dropout=0.2, l2_reg=0.0001
+  Experiment 43/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 44/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 45/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 46/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 47/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 48/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 49/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 50/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 51/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 52/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 53/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 54/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 55/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 56/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.452 ± 2.783
+      Sharpe (w/ TC):  0.159 ± 2.713
+      Hit Rate:       0.523 ± 0.062
+    prob_weighted:
+      Sharpe (no TC): -1.386 ± 3.116
+      Sharpe (w/ TC):  -2.833 ± 3.116
+      Hit Rate:       0.523 ± 0.062
+    vol_adjusted:
+      Sharpe (no TC): -1.339 ± 3.010
+      Sharpe (w/ TC):  -3.151 ± 3.005
+      Hit Rate:       0.523 ± 0.062
+
+Hyperparameters: latent_dim=4, window=15, dropout=0.0, l2_reg=0.0
+  Experiment 57/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 58/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 59/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 60/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 61/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 62/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 63/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 64/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 65/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 66/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 67/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 68/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 69/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 70/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): -0.134 ± 2.927
+      Sharpe (w/ TC):  -0.411 ± 2.839
+      Hit Rate:       0.514 ± 0.083
+    prob_weighted:
+      Sharpe (no TC): -1.102 ± 3.846
+      Sharpe (w/ TC):  -3.300 ± 4.989
+      Hit Rate:       0.514 ± 0.083
+    vol_adjusted:
+      Sharpe (no TC): -1.012 ± 3.735
+      Sharpe (w/ TC):  -3.581 ± 5.007
+      Hit Rate:       0.514 ± 0.083
+
+Hyperparameters: latent_dim=4, window=15, dropout=0.0, l2_reg=0.0001
+  Experiment 71/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 72/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 73/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 74/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 75/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 76/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 77/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 78/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 79/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 80/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 81/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 82/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 83/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 84/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.533 ± 2.885
+      Sharpe (w/ TC):  0.260 ± 2.768
+      Hit Rate:       0.564 ± 0.072
+    prob_weighted:
+      Sharpe (no TC): -1.354 ± 3.385
+      Sharpe (w/ TC):  -3.201 ± 3.673
+      Hit Rate:       0.564 ± 0.072
+    vol_adjusted:
+      Sharpe (no TC): -1.435 ± 3.227
+      Sharpe (w/ TC):  -3.878 ± 4.586
+      Hit Rate:       0.564 ± 0.072
+
+Hyperparameters: latent_dim=4, window=15, dropout=0.2, l2_reg=0.0
+  Experiment 85/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 86/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 87/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 88/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 89/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 90/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 91/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 92/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 93/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 94/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 95/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 96/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 97/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 98/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.665 ± 3.202
+      Sharpe (w/ TC):  0.378 ± 3.092
+      Hit Rate:       0.536 ± 0.079
+    prob_weighted:
+      Sharpe (no TC): -0.545 ± 3.791
+      Sharpe (w/ TC):  -3.645 ± 6.936
+      Hit Rate:       0.536 ± 0.079
+    vol_adjusted:
+      Sharpe (no TC): -0.552 ± 3.675
+      Sharpe (w/ TC):  -4.063 ± 7.276
+      Hit Rate:       0.536 ± 0.079
+
+Hyperparameters: latent_dim=4, window=15, dropout=0.2, l2_reg=0.0001
+  Experiment 99/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 100/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 101/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 102/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 103/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 104/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 105/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 106/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 107/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 108/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 109/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 110/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 111/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 112/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.147 ± 2.822
+      Sharpe (w/ TC):  -0.138 ± 2.749
+      Hit Rate:       0.534 ± 0.084
+    prob_weighted:
+      Sharpe (no TC): -1.066 ± 3.608
+      Sharpe (w/ TC):  -3.306 ± 2.697
+      Hit Rate:       0.534 ± 0.084
+    vol_adjusted:
+      Sharpe (no TC): -0.946 ± 3.456
+      Sharpe (w/ TC):  -3.651 ± 2.764
+      Hit Rate:       0.534 ± 0.084
+
+Hyperparameters: latent_dim=4, window=25, dropout=0.0, l2_reg=0.0
+  Experiment 113/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 114/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 115/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 116/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 117/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 118/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 119/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 120/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 121/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 122/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 123/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 124/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 125/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 126/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.400 ± 3.919
+      Sharpe (w/ TC):  0.124 ± 3.852
+      Hit Rate:       0.524 ± 0.109
+    prob_weighted:
+      Sharpe (no TC): -0.824 ± 5.018
+      Sharpe (w/ TC):  -4.843 ± 5.834
+      Hit Rate:       0.524 ± 0.109
+    vol_adjusted:
+      Sharpe (no TC): -0.872 ± 4.988
+      Sharpe (w/ TC):  -5.070 ± 5.206
+      Hit Rate:       0.524 ± 0.109
+
+Hyperparameters: latent_dim=4, window=25, dropout=0.0, l2_reg=0.0001
+  Experiment 127/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 128/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 129/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 130/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 131/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 132/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 133/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 134/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 135/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 136/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 137/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 138/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 139/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 140/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.263 ± 3.438
+      Sharpe (w/ TC):  0.014 ± 3.375
+      Hit Rate:       0.504 ± 0.127
+    prob_weighted:
+      Sharpe (no TC): -1.367 ± 5.180
+      Sharpe (w/ TC):  -4.602 ± 5.360
+      Hit Rate:       0.504 ± 0.127
+    vol_adjusted:
+      Sharpe (no TC): -1.344 ± 5.201
+      Sharpe (w/ TC):  -4.973 ± 5.220
+      Hit Rate:       0.504 ± 0.127
+
+Hyperparameters: latent_dim=4, window=25, dropout=0.2, l2_reg=0.0
+  Experiment 141/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 142/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 143/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 144/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 145/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 146/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 147/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 148/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 149/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 150/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 151/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 152/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 153/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 154/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): -0.317 ± 3.756
+      Sharpe (w/ TC):  -0.555 ± 3.658
+      Hit Rate:       0.534 ± 0.119
+    prob_weighted:
+      Sharpe (no TC): -1.526 ± 5.112
+      Sharpe (w/ TC):  -5.141 ± 5.953
+      Hit Rate:       0.534 ± 0.119
+    vol_adjusted:
+      Sharpe (no TC): -1.474 ± 4.942
+      Sharpe (w/ TC):  -5.760 ± 5.955
+      Hit Rate:       0.534 ± 0.119
+
+Hyperparameters: latent_dim=4, window=25, dropout=0.2, l2_reg=0.0001
+  Experiment 155/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 156/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 157/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 158/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 159/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 160/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 161/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 162/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 163/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 164/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 165/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 166/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 167/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 168/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.646 ± 4.541
+      Sharpe (w/ TC):  0.335 ± 4.408
+      Hit Rate:       0.520 ± 0.103
+    prob_weighted:
+      Sharpe (no TC): -0.267 ± 4.796
+      Sharpe (w/ TC):  -3.753 ± 5.088
+      Hit Rate:       0.520 ± 0.103
+    vol_adjusted:
+      Sharpe (no TC): -0.419 ± 4.676
+      Sharpe (w/ TC):  -4.790 ± 6.649
+      Hit Rate:       0.520 ± 0.103
+
+Hyperparameters: latent_dim=8, window=10, dropout=0.0, l2_reg=0.0
+  Experiment 169/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 170/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 171/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 172/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 173/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 174/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 175/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 176/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 177/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 178/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 179/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 180/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 181/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 182/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.173 ± 3.275
+      Sharpe (w/ TC):  -0.103 ± 3.208
+      Hit Rate:       0.517 ± 0.085
+    prob_weighted:
+      Sharpe (no TC): -1.368 ± 4.150
+      Sharpe (w/ TC):  -3.237 ± 5.153
+      Hit Rate:       0.517 ± 0.085
+    vol_adjusted:
+      Sharpe (no TC): -1.413 ± 3.971
+      Sharpe (w/ TC):  -3.550 ± 4.916
+      Hit Rate:       0.517 ± 0.085
+
+Hyperparameters: latent_dim=8, window=10, dropout=0.0, l2_reg=0.0001
+  Experiment 183/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 184/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 185/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 186/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 187/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 188/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 189/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 190/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 191/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 192/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 193/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 194/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 195/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 196/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 1.365 ± 3.681
+      Sharpe (w/ TC):  1.068 ± 3.642
+      Hit Rate:       0.552 ± 0.069
+    prob_weighted:
+      Sharpe (no TC): 0.807 ± 4.048
+      Sharpe (w/ TC):  -1.245 ± 3.695
+      Hit Rate:       0.552 ± 0.069
+    vol_adjusted:
+      Sharpe (no TC): 0.833 ± 3.957
+      Sharpe (w/ TC):  -1.749 ± 4.181
+      Hit Rate:       0.552 ± 0.069
+
+Hyperparameters: latent_dim=8, window=10, dropout=0.2, l2_reg=0.0
+  Experiment 197/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 198/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 199/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 200/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 201/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 202/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 203/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 204/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 205/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 206/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 207/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 208/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 209/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 210/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.669 ± 2.573
+      Sharpe (w/ TC):  0.382 ± 2.507
+      Hit Rate:       0.536 ± 0.077
+    prob_weighted:
+      Sharpe (no TC): -1.161 ± 3.657
+      Sharpe (w/ TC):  -3.208 ± 4.482
+      Hit Rate:       0.536 ± 0.077
+    vol_adjusted:
+      Sharpe (no TC): -1.188 ± 3.547
+      Sharpe (w/ TC):  -3.746 ± 4.571
+      Hit Rate:       0.536 ± 0.077
+
+Hyperparameters: latent_dim=8, window=10, dropout=0.2, l2_reg=0.0001
+  Experiment 211/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 212/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 213/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 214/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 215/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 216/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 217/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 218/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 219/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 220/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 221/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 222/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 223/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 224/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.474 ± 2.289
+      Sharpe (w/ TC):  0.178 ± 2.194
+      Hit Rate:       0.531 ± 0.081
+    prob_weighted:
+      Sharpe (no TC): -0.578 ± 3.347
+      Sharpe (w/ TC):  -2.720 ± 3.289
+      Hit Rate:       0.531 ± 0.081
+    vol_adjusted:
+      Sharpe (no TC): -0.753 ± 3.295
+      Sharpe (w/ TC):  -3.314 ± 3.331
+      Hit Rate:       0.531 ± 0.081
+
+Hyperparameters: latent_dim=8, window=15, dropout=0.0, l2_reg=0.0
+  Experiment 225/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 226/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 227/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 228/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 229/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 230/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 231/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 232/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 233/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 234/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 235/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 236/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 237/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 238/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.111 ± 2.210
+      Sharpe (w/ TC):  -0.158 ± 2.126
+      Hit Rate:       0.534 ± 0.084
+    prob_weighted:
+      Sharpe (no TC): -0.677 ± 4.486
+      Sharpe (w/ TC):  -2.504 ± 4.832
+      Hit Rate:       0.534 ± 0.084
+    vol_adjusted:
+      Sharpe (no TC): -0.590 ± 4.434
+      Sharpe (w/ TC):  -3.052 ± 5.613
+      Hit Rate:       0.534 ± 0.084
+
+Hyperparameters: latent_dim=8, window=15, dropout=0.0, l2_reg=0.0001
+  Experiment 239/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 240/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 241/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 242/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 243/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 244/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 245/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 246/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 247/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 248/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 249/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 250/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 251/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 252/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.587 ± 3.117
+      Sharpe (w/ TC):  0.288 ± 3.042
+      Hit Rate:       0.539 ± 0.064
+    prob_weighted:
+      Sharpe (no TC): -0.900 ± 3.635
+      Sharpe (w/ TC):  -2.834 ± 3.913
+      Hit Rate:       0.539 ± 0.064
+    vol_adjusted:
+      Sharpe (no TC): -0.944 ± 3.438
+      Sharpe (w/ TC):  -3.436 ± 4.805
+      Hit Rate:       0.539 ± 0.064
+
+Hyperparameters: latent_dim=8, window=15, dropout=0.2, l2_reg=0.0
+  Experiment 253/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 254/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 255/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 256/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 257/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 258/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 259/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 260/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 261/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 262/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 263/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 264/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 265/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 266/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 1.220 ± 3.296
+      Sharpe (w/ TC):  0.904 ± 3.190
+      Hit Rate:       0.562 ± 0.072
+    prob_weighted:
+      Sharpe (no TC): 0.645 ± 4.347
+      Sharpe (w/ TC):  -3.082 ± 4.728
+      Hit Rate:       0.562 ± 0.072
+    vol_adjusted:
+      Sharpe (no TC): 0.536 ± 4.263
+      Sharpe (w/ TC):  -3.896 ± 5.179
+      Hit Rate:       0.562 ± 0.072
+
+Hyperparameters: latent_dim=8, window=15, dropout=0.2, l2_reg=0.0001
+  Experiment 267/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 268/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 269/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 270/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 271/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 272/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 273/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 274/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 275/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 276/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 277/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 278/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 279/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 280/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.544 ± 2.806
+      Sharpe (w/ TC):  0.247 ± 2.698
+      Hit Rate:       0.551 ± 0.070
+    prob_weighted:
+      Sharpe (no TC): -0.684 ± 3.298
+      Sharpe (w/ TC):  -3.282 ± 4.581
+      Hit Rate:       0.551 ± 0.070
+    vol_adjusted:
+      Sharpe (no TC): -0.747 ± 3.122
+      Sharpe (w/ TC):  -3.872 ± 5.058
+      Hit Rate:       0.551 ± 0.070
+
+Hyperparameters: latent_dim=8, window=25, dropout=0.0, l2_reg=0.0
+  Experiment 281/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 282/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 283/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 284/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 285/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 286/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 287/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 288/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 289/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 290/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 291/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 292/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 293/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 294/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.247 ± 3.859
+      Sharpe (w/ TC):  -0.046 ± 3.771
+      Hit Rate:       0.544 ± 0.114
+    prob_weighted:
+      Sharpe (no TC): -1.259 ± 5.114
+      Sharpe (w/ TC):  -6.292 ± 6.865
+      Hit Rate:       0.544 ± 0.114
+    vol_adjusted:
+      Sharpe (no TC): -1.487 ± 4.851
+      Sharpe (w/ TC):  -6.934 ± 6.567
+      Hit Rate:       0.544 ± 0.114
+
+Hyperparameters: latent_dim=8, window=25, dropout=0.0, l2_reg=0.0001
+  Experiment 295/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 296/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 297/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 298/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 299/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 300/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 301/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 302/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 303/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 304/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 305/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 306/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 307/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 308/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): -0.594 ± 3.687
+      Sharpe (w/ TC):  -0.810 ± 3.618
+      Hit Rate:       0.530 ± 0.126
+    prob_weighted:
+      Sharpe (no TC): -1.981 ± 5.106
+      Sharpe (w/ TC):  -6.227 ± 9.905
+      Hit Rate:       0.530 ± 0.126
+    vol_adjusted:
+      Sharpe (no TC): -2.083 ± 4.839
+      Sharpe (w/ TC):  -6.698 ± 9.304
+      Hit Rate:       0.530 ± 0.126
+
+Hyperparameters: latent_dim=8, window=25, dropout=0.2, l2_reg=0.0
+  Experiment 309/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 310/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 311/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 312/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 313/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 314/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 315/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 316/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 317/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 318/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 319/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 320/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 321/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 322/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.380 ± 3.790
+      Sharpe (w/ TC):  0.090 ± 3.700
+      Hit Rate:       0.549 ± 0.113
+    prob_weighted:
+      Sharpe (no TC): -0.725 ± 4.837
+      Sharpe (w/ TC):  -4.254 ± 6.952
+      Hit Rate:       0.549 ± 0.113
+    vol_adjusted:
+      Sharpe (no TC): -0.854 ± 4.771
+      Sharpe (w/ TC):  -4.800 ± 6.742
+      Hit Rate:       0.549 ± 0.113
+
+Hyperparameters: latent_dim=8, window=25, dropout=0.2, l2_reg=0.0001
+  Experiment 323/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 324/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 325/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 326/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 327/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 328/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 329/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 330/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 331/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 332/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 333/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 334/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 335/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 336/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.310 ± 4.215
+      Sharpe (w/ TC):  0.032 ± 4.095
+      Hit Rate:       0.557 ± 0.117
+    prob_weighted:
+      Sharpe (no TC): -0.312 ± 5.183
+      Sharpe (w/ TC):  -2.791 ± 5.093
+      Hit Rate:       0.557 ± 0.117
+    vol_adjusted:
+      Sharpe (no TC): -0.488 ± 5.072
+      Sharpe (w/ TC):  -3.165 ± 4.830
+      Hit Rate:       0.557 ± 0.117
+
+Hyperparameters: latent_dim=12, window=10, dropout=0.0, l2_reg=0.0
+  Experiment 337/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 338/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 339/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 340/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 341/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 342/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 343/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 344/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 345/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 346/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 347/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 348/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 349/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 350/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 1.055 ± 3.417
+      Sharpe (w/ TC):  0.755 ± 3.361
+      Hit Rate:       0.548 ± 0.071
+    prob_weighted:
+      Sharpe (no TC): -0.211 ± 3.634
+      Sharpe (w/ TC):  -2.040 ± 3.606
+      Hit Rate:       0.548 ± 0.071
+    vol_adjusted:
+      Sharpe (no TC): -0.232 ± 3.472
+      Sharpe (w/ TC):  -2.423 ± 3.570
+      Hit Rate:       0.548 ± 0.071
+
+Hyperparameters: latent_dim=12, window=10, dropout=0.0, l2_reg=0.0001
+  Experiment 351/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 352/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 353/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 354/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 355/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 356/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 357/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 358/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 359/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 360/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 361/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 362/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 363/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 364/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.652 ± 3.318
+      Sharpe (w/ TC):  0.348 ± 3.232
+      Hit Rate:       0.545 ± 0.098
+    prob_weighted:
+      Sharpe (no TC): 0.041 ± 4.302
+      Sharpe (w/ TC):  -1.923 ± 4.270
+      Hit Rate:       0.545 ± 0.098
+    vol_adjusted:
+      Sharpe (no TC): 0.023 ± 4.191
+      Sharpe (w/ TC):  -2.461 ± 4.639
+      Hit Rate:       0.545 ± 0.098
+
+Hyperparameters: latent_dim=12, window=10, dropout=0.2, l2_reg=0.0
+  Experiment 365/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 366/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 367/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 368/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 369/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 370/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 371/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 372/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 373/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 374/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 375/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 376/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 377/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 378/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.967 ± 2.768
+      Sharpe (w/ TC):  0.695 ± 2.717
+      Hit Rate:       0.541 ± 0.073
+    prob_weighted:
+      Sharpe (no TC): -0.591 ± 3.543
+      Sharpe (w/ TC):  -2.318 ± 3.755
+      Hit Rate:       0.541 ± 0.073
+    vol_adjusted:
+      Sharpe (no TC): -0.666 ± 3.473
+      Sharpe (w/ TC):  -2.833 ± 4.088
+      Hit Rate:       0.541 ± 0.073
+
+Hyperparameters: latent_dim=12, window=10, dropout=0.2, l2_reg=0.0001
+  Experiment 379/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 380/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 381/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 382/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 383/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 384/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 385/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 386/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 387/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 388/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 389/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 390/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 391/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 392/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 1.019 ± 2.823
+      Sharpe (w/ TC):  0.734 ± 2.747
+      Hit Rate:       0.547 ± 0.064
+    prob_weighted:
+      Sharpe (no TC): -0.353 ± 3.200
+      Sharpe (w/ TC):  -2.508 ± 2.741
+      Hit Rate:       0.547 ± 0.064
+    vol_adjusted:
+      Sharpe (no TC): -0.417 ± 3.063
+      Sharpe (w/ TC):  -3.050 ± 2.982
+      Hit Rate:       0.547 ± 0.064
+
+Hyperparameters: latent_dim=12, window=15, dropout=0.0, l2_reg=0.0
+  Experiment 393/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 394/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 395/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 396/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 397/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 398/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 399/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 400/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 401/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 402/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 403/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 404/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 405/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 406/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.262 ± 2.619
+      Sharpe (w/ TC):  0.021 ± 2.554
+      Hit Rate:       0.540 ± 0.070
+    prob_weighted:
+      Sharpe (no TC): -0.834 ± 3.908
+      Sharpe (w/ TC):  -3.157 ± 4.512
+      Hit Rate:       0.540 ± 0.070
+    vol_adjusted:
+      Sharpe (no TC): -0.900 ± 3.804
+      Sharpe (w/ TC):  -3.683 ± 4.978
+      Hit Rate:       0.540 ± 0.070
+
+Hyperparameters: latent_dim=12, window=15, dropout=0.0, l2_reg=0.0001
+  Experiment 407/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 408/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 409/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 410/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 411/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 412/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 413/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 414/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 415/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 416/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 417/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 418/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 419/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 420/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.784 ± 3.406
+      Sharpe (w/ TC):  0.504 ± 3.359
+      Hit Rate:       0.538 ± 0.082
+    prob_weighted:
+      Sharpe (no TC): -1.040 ± 4.683
+      Sharpe (w/ TC):  -5.192 ± 7.532
+      Hit Rate:       0.538 ± 0.082
+    vol_adjusted:
+      Sharpe (no TC): -1.005 ± 4.588
+      Sharpe (w/ TC):  -5.033 ± 6.042
+      Hit Rate:       0.538 ± 0.082
+
+Hyperparameters: latent_dim=12, window=15, dropout=0.2, l2_reg=0.0
+  Experiment 421/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 422/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 423/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 424/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 425/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 426/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 427/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 428/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 429/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 430/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 431/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 432/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 433/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 434/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.299 ± 2.454
+      Sharpe (w/ TC):  0.024 ± 2.341
+      Hit Rate:       0.562 ± 0.066
+    prob_weighted:
+      Sharpe (no TC): -0.571 ± 4.090
+      Sharpe (w/ TC):  -4.427 ± 4.703
+      Hit Rate:       0.562 ± 0.066
+    vol_adjusted:
+      Sharpe (no TC): -0.614 ± 3.928
+      Sharpe (w/ TC):  -5.022 ± 5.063
+      Hit Rate:       0.562 ± 0.066
+
+Hyperparameters: latent_dim=12, window=15, dropout=0.2, l2_reg=0.0001
+  Experiment 435/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 436/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 437/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 438/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 439/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 440/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 441/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 442/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 443/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 444/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 445/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 446/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 447/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 448/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 1.149 ± 3.390
+      Sharpe (w/ TC):  0.859 ± 3.308
+      Hit Rate:       0.562 ± 0.082
+    prob_weighted:
+      Sharpe (no TC): -0.214 ± 4.258
+      Sharpe (w/ TC):  -2.123 ± 4.407
+      Hit Rate:       0.562 ± 0.082
+    vol_adjusted:
+      Sharpe (no TC): -0.104 ± 4.170
+      Sharpe (w/ TC):  -2.672 ± 4.948
+      Hit Rate:       0.562 ± 0.082
+
+Hyperparameters: latent_dim=12, window=25, dropout=0.0, l2_reg=0.0
+  Experiment 449/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 450/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 451/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 452/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 453/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 454/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 455/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 456/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 457/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 458/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 459/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 460/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 461/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 462/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.346 ± 3.987
+      Sharpe (w/ TC):  0.145 ± 3.921
+      Hit Rate:       0.487 ± 0.094
+    prob_weighted:
+      Sharpe (no TC): -1.580 ± 4.454
+      Sharpe (w/ TC):  -5.029 ± 5.385
+      Hit Rate:       0.487 ± 0.094
+    vol_adjusted:
+      Sharpe (no TC): -1.725 ± 4.314
+      Sharpe (w/ TC):  -5.220 ± 4.582
+      Hit Rate:       0.487 ± 0.094
+
+Hyperparameters: latent_dim=12, window=25, dropout=0.0, l2_reg=0.0001
+  Experiment 463/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 464/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 465/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 466/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 467/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 468/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 469/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 470/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 471/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 472/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 473/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 474/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 475/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 476/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.091 ± 3.839
+      Sharpe (w/ TC):  -0.175 ± 3.746
+      Hit Rate:       0.535 ± 0.115
+    prob_weighted:
+      Sharpe (no TC): -1.311 ± 5.200
+      Sharpe (w/ TC):  -5.053 ± 6.315
+      Hit Rate:       0.535 ± 0.115
+    vol_adjusted:
+      Sharpe (no TC): -1.505 ± 4.990
+      Sharpe (w/ TC):  -5.388 ± 5.805
+      Hit Rate:       0.535 ± 0.115
+
+Hyperparameters: latent_dim=12, window=25, dropout=0.2, l2_reg=0.0
+  Experiment 477/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 478/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 479/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 480/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 481/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 482/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 483/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 484/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 485/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 486/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 487/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 488/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 489/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 490/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.401 ± 4.148
+      Sharpe (w/ TC):  0.114 ± 4.083
+      Hit Rate:       0.509 ± 0.124
+    prob_weighted:
+      Sharpe (no TC): -1.120 ± 5.635
+      Sharpe (w/ TC):  -2.666 ± 5.057
+      Hit Rate:       0.509 ± 0.124
+    vol_adjusted:
+      Sharpe (no TC): -1.282 ± 5.313
+      Sharpe (w/ TC):  -3.025 ± 4.667
+      Hit Rate:       0.509 ± 0.124
+
+Hyperparameters: latent_dim=12, window=25, dropout=0.2, l2_reg=0.0001
+  Experiment 491/504: Train 2015-07 to 2018-07, Test 2018-07 to 2018-09
+  Experiment 492/504: Train 2016-01 to 2019-01, Test 2019-01 to 2019-03
+  Experiment 493/504: Train 2016-07 to 2019-07, Test 2019-07 to 2019-09
+  Experiment 494/504: Train 2016-12 to 2019-12, Test 2019-12 to 2020-02
+  Experiment 495/504: Train 2017-06 to 2020-06, Test 2020-06 to 2020-08
+  Experiment 496/504: Train 2017-12 to 2020-12, Test 2020-12 to 2021-02
+  Experiment 497/504: Train 2018-06 to 2021-06, Test 2021-06 to 2021-08
+  Experiment 498/504: Train 2018-12 to 2021-12, Test 2021-12 to 2022-02
+  Experiment 499/504: Train 2019-06 to 2022-06, Test 2022-06 to 2022-08
+  Experiment 500/504: Train 2019-12 to 2022-12, Test 2022-12 to 2023-02
+  Experiment 501/504: Train 2020-06 to 2023-06, Test 2023-06 to 2023-08
+  Experiment 502/504: Train 2020-12 to 2023-12, Test 2023-12 to 2024-02
+  Experiment 503/504: Train 2021-06 to 2024-06, Test 2024-06 to 2024-08
+  Experiment 504/504: Train 2021-12 to 2024-12, Test 2024-12 to 2025-02
+  Results across 42 experiments:
+    binary:
+      Sharpe (no TC): 0.610 ± 4.024
+      Sharpe (w/ TC):  0.378 ± 3.982
+      Hit Rate:       0.474 ± 0.099
+    prob_weighted:
+      Sharpe (no TC): -1.142 ± 4.654
+      Sharpe (w/ TC):  -3.863 ± 4.222
+      Hit Rate:       0.474 ± 0.099
+    vol_adjusted:
+      Sharpe (no TC): -1.330 ± 4.425
+      Sharpe (w/ TC):  -4.481 ± 4.516
+      Hit Rate:       0.474 ± 0.099
+
+Saving 1512 results to database...
+
+============================================================
+COMPREHENSIVE RESULTS SUMMARY
+============================================================
+
+BINARY POSITION SIZING:
+  Best Sharpe (w/ TC): 7.418
+    Config: latent_dim=8, window=15, dropout=0.2, l2_reg=0.0
+    Hit Rate: 0.625
+    Max Drawdown: -0.010
+  Best Hit Rate: 0.750
+    Config: latent_dim=4, window=25, dropout=0.0, l2_reg=0.0
+    Sharpe (w/ TC): 0.000
+
+PROB_WEIGHTED POSITION SIZING:
+  Best Sharpe (w/ TC): 6.770
+    Config: latent_dim=12, window=25, dropout=0.2, l2_reg=0.0
+    Hit Rate: 0.417
+    Max Drawdown: -0.003
+  Best Hit Rate: 0.750
+    Config: latent_dim=4, window=25, dropout=0.0, l2_reg=0.0
+    Sharpe (w/ TC): -10.402
+
+VOL_ADJUSTED POSITION SIZING:
+  Best Sharpe (w/ TC): 7.291
+    Config: latent_dim=4, window=25, dropout=0.0, l2_reg=0.0001
+    Hit Rate: 0.643
+    Max Drawdown: -0.004
+  Best Hit Rate: 0.750
+    Config: latent_dim=4, window=25, dropout=0.0, l2_reg=0.0
+    Sharpe (w/ TC): -10.256
+
+OVERALL STATISTICS:
+  Total experiments: 1512
+  Mean Sharpe (w/ TC): -2.391
+  Std Sharpe (w/ TC):  5.072
+  Mean Hit Rate:       0.536
+  Profitable configs:  30.7%
+
+Robustness testing complete! Results saved to results.db
+2025-06-23 17:30:52.083714: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-23 17:30:52.099975: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750692652.117468  933090 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1750692652.122681  933090 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1750692652.136950  933090 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750692652.136967  933090 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750692652.136969  933090 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750692652.136970  933090 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-06-23 17:30:52.141537: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+W0000 00:00:1750692654.797581  933090 gpu_device.cc:2341] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+WARNING:tensorflow:5 out of the last 32 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x7f64f02e2820> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:5 out of the last 32 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x7f64902cbca0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+
+
+e details.
+
+
